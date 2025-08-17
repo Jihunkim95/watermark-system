@@ -1,9 +1,11 @@
 [submodule "VR_WAM_Watermark"]
 	path = VR_WAM_Watermark
 	url = https://github.com/Jihunkim95/VR_WAM_Watermark.git
+	branch = main
 	ignore = dirty
 
 [submodule "watermark-anything"]
 	path = watermark-anything
 	url = https://github.com/Jihunkim95/watermark-anything.git
+	branch = main
 	ignore = dirty
