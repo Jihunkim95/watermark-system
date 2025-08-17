@@ -5,5 +5,5 @@
 
 [submodule "watermark-anything"]
 	path = watermark-anything
-	url = https://github.com/facebookresearch/watermark-anything.git
+	url = https://github.com/Jihunkim95/watermark-anything.git
 	ignore = dirty
