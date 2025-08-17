@@ -1,0 +1,119 @@
+# Unity
+/VR_WAM_Watermark/[Ll]ibrary/
+/VR_WAM_Watermark/[Tt]emp/
+/VR_WAM_Watermark/[Oo]bj/
+/VR_WAM_Watermark/[Bb]uild/
+/VR_WAM_Watermark/[Bb]uilds/
+/VR_WAM_Watermark/[Ll]ogs/
+/VR_WAM_Watermark/[Uu]ser[Ss]ettings/
+
+# Unity Asset Store Tools
+/VR_WAM_Watermark/[Aa]ssets/AssetStoreTools*
+
+# Visual Studio cache files
+*.tmp
+*.temp
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Unity3D generated file on crash reports
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# Crashlytics generated file
+crashlytics-build.properties
+
+# Packed Addressables
+/VR_WAM_Watermark/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Temporary auto-generated Android Assets
+/VR_WAM_Watermark/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/VR_WAM_Watermark/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Python WAM
+/watermark-anything/__pycache__/
+/watermark-anything/.pytest_cache/
+/watermark-anything/outputs/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+
+# PyTorch/ML
+*.pth
+*.pt
+*.model
+*.pkl
+*.h5
+*.pb
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Protected Artworks (outputs)
+/VR_WAM_Watermark/Assets/ProtectedArtworks/
+/outputs/
+/debug/
+/logs/
+
+# WAM Model Weights (대용량 파일)
+/watermark-anything/checkpoints/*.pth
+/watermark-anything/checkpoints/*.pt
+
+# 하지만 params.json은 포함
+!/watermark-anything/checkpoints/params.json
+
+# Test outputs
+watermarked_image.png
+predicted_mask.png
+target_mask.png
+watermark_analysis.png

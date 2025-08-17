@@ -1,0 +1,9 @@
+[submodule "VR_WAM_Watermark"]
+	path = VR_WAM_Watermark
+	url = ./VR_WAM_Watermark
+	ignore = dirty
+
+[submodule "watermark-anything"]
+	path = watermark-anything
+	url = https://github.com/facebookresearch/watermark-anything.git
+	ignore = dirty
